@@ -1,0 +1,326 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>New Order Notification - Refinance</title>
+
+    <!-- STYLE CSS-->
+    <link href="https://fonts.googleapis.com/css?family=Oranienbaum|Source+Sans+Pro" rel="stylesheet">
+    <style>
+        h1 {
+            font-family: 'Oranienbaum', serif;
+            font-size: 18pt;
+            margin-bottom: 2px;
+        }
+        h2 {
+            font-family: 'Oranienbaum', serif;
+            font-size: 16pt;
+            padding-left: 20px;
+            margin-bottom: 4px;
+        }
+        p {
+            font-size: 12pt;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+        p.no-top {
+            margin-top: 0px;
+        }
+        table.table1{
+            text-align: right;
+            border-collapse: collapse;
+            padding-left: 20px;
+            padding-bottom: 20px;
+        }
+
+        table.table1 tr.topRow{
+            border-top: solid;
+            border-top-width: 1px;
+        }
+
+        table.table1 td{
+            padding: 4px 10px;
+        }
+
+        table.table1 td.leftColumn{
+            font-family: 'Source Sans Pro', sans-serif;
+            width: 175px;
+            text-align: right;
+            font-size: 12pt;
+            border-right: solid;
+            border-right-width: 1px;
+        }
+
+        table.table1 td.rightColumn{
+            font-family: 'Source Sans Pro', sans-serif;
+            width: 275px;
+            text-align: left;
+            font-size: 10pt;
+            border-left: solid;
+            border-left-width: 1px;
+        }
+
+        table.table1 td.additional{
+            font-family: 'Source Sans Pro', sans-serif;
+            width: 460px;
+            text-align: left;
+            font-size: 10pt;
+            padding-left: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>A new order has arrived. (Refinance)</h1>
+    
+    <p class="no-top">The ProForm Overlay File (.pxt) is attached to this email.</p>
+    </br>
+    
+    <h2>Order Contact Information</h2>
+    <table class="table1">
+    <tbody>
+        <tr class="topRow">
+            <td class="leftColumn">Contact Name:</td>
+            <td class="rightColumn">%CONTACT_NAME%</td>
+        </tr>
+        <tr>
+            <td class="leftColumn">Contact Role:</td>
+            <td class="rightColumn">%CONTACT_ROLE%</td>
+        </tr>
+        <tr>
+            <td class="leftColumn">Contact Adress Line 1:</td>
+            <td class="rightColumn">%CONTACT_ADDRESS%</td>
+        </tr>
+        <tr>
+            <td class="leftColumn">Contact City:</td>
+            <td class="rightColumn">%CONTACT_CITY%</td>
+        </tr>
+        <tr>
+            <td class="leftColumn">Contact State:</td>
+            <td class="rightColumn">%CONTACT_STATE%</td>
+        </tr>
+        <tr>
+            <td class="leftColumn">Contact Zip:</td>
+            <td class="rightColumn">%CONTACT_ZIP%</td>
+        </tr>
+        <tr>
+            <td class="leftColumn">Contact Phone:</td>
+            <td class="rightColumn">%CONTACT_PHONE%</td>
+        </tr>
+        <tr>
+            <td class="leftColumn">Contact Email:</td>
+            <td class="rightColumn">%CONTACT_EMAIL%</td>
+        </tr>
+    </tbody>
+    </table>
+
+    <h2>Transaction Information</h2>
+    <table class="table1">
+        <tbody>
+            <tr class="topRow">
+                <td class="leftColumn">Transaction Type:</td>
+                <td class="rightColumn">%TRANSACTION_TYPE%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Settlement Date:</td>
+                <td class="rightColumn">%SETTLEMENT_DATE%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Loan Amount:</td>
+                <td class="rightColumn">%LOAN_AMOUNT%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Cash Transaction?:</td>
+                <td class="rightColumn">%CASH_TRANSACTION%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">New Construction?:</td>
+                <td class="rightColumn">%NEW_CONSTRUCTION%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Closing?</td>
+                <td class="rightColumn">%CLOSING%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Property Information</h2>
+    <table class="table1">
+        <tbody>
+            <tr class="topRow">
+                <td class="leftColumn">Property Address:</td>
+                <td class="rightColumn">%PROPERTY_ADDRESS%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Property City:</td>
+                <td class="rightColumn">%PROPERTY_CITY%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Property State:</td>
+                <td class="rightColumn">%PROPERTY_STATE%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Property Zip:</td>
+                <td class="rightColumn">%PROPERTY_ZIP%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Property County:</td>
+                <td class="rightColumn">%PROPERTY_COUNTY%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Brieft Legal:</td>
+                <td class="rightColumn">%BRIEF_LEGAL%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Borrower 1 Information</h2>
+    <table class="table1">
+        <tbody>
+            <tr class="topRow">
+                <td class="leftColumn">Name:</td>
+                <td class="rightColumn">%BUYER1_NAME%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Address Line 1:</td>
+                <td class="rightColumn">%BUYER1_ADDRESS1%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Address Line 2:</td>
+                <td class="rightColumn">%BUYER1_ADDRESS2%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Home Phone:</td>
+                <td class="rightColumn">%BUYER1_HOMEPH%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Mobile Phone:</td>
+                <td class="rightColumn">%BUYER1_CELLPH%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Email:</td>
+                <td class="rightColumn">%BUYER1_EMAIL%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Borrower 2 Information</h2>
+    <table class="table1">
+        <tbody>
+            <tr class="topRow">
+                <td class="leftColumn">Name:</td>
+                <td class="rightColumn">%BUYER2_NAME%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Address Line 1:</td>
+                <td class="rightColumn">%BUYER2_ADDRESS1%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Address Line 2:</td>
+                <td class="rightColumn">%BUYER2_ADDRESS2%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Home Phone:</td>
+                <td class="rightColumn">%BUYER2_HOMEPH%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Mobile Phone:</td>
+                <td class="rightColumn">%BUYER2_CELLPH%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Email:</td>
+                <td class="rightColumn">%BUYER2_EMAIL%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Lender Information</h2>
+    <table class="table1">
+        <tbody>
+            <tr class="topRow">
+                <td class="leftColumn">Name:</td>
+                <td class="rightColumn">%LENDER_NAME%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Address Line 1:</td>
+                <td class="rightColumn">%LENDER_ADDRESS1%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Address Line 2:</td>
+                <td class="rightColumn">%LENDER_ADDRESS2%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Lender Main Contact</h2>
+    <table class="table1">
+        <tbody>
+            <tr class="topRow">
+                <td class="leftColumn">Name:</td>
+                <td class="rightColumn">%LENDERAGENT_NAME%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Phone:</td>
+                <td class="rightColumn">%LENDERAGENT_PHONE%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Email:</td>
+                <td class="rightColumn">%LENDERAGENT_EMAIL%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Mortgage Broker Information</h2>
+    <table class="table1">
+        <tbody>
+            <tr class="topRow">
+                <td class="leftColumn">Name:</td>
+                <td class="rightColumn">%MORTGAGE_NAME%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Address Line 1:</td>
+                <td class="rightColumn">%MORTGAGE_ADDRESS1%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Address Line 2:</td>
+                <td class="rightColumn">%MORTGAGE_ADDRESS2%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Mortgage Broker Main Contact</h2>
+    <table class="table1">
+        <tbody>
+            <tr class="topRow">
+                <td class="leftColumn">Name:</td>
+                <td class="rightColumn">%MORTGAGEAGENT_NAME%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Phone:</td>
+                <td class="rightColumn">%MORTGAGEAGENT_PHONE%</td>
+            </tr>
+            <tr>
+                <td class="leftColumn">Email:</td>
+                <td class="rightColumn">%MORTGAGEAGENT_EMAIL%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Additional Information</h2>
+    <table class="table1">
+        <tbody>
+            <tr class="topRow">
+                <td class="additional">%ADDITIONAL_INFO%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>ProForm Overlay Information</h2>
+    <table class="table1">
+        <tbody>
+            <tr class="topRow">
+                <td class="leftColumn">PXT:</td>
+                <td class="rightColumn">%PXT_FILENAME%</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
