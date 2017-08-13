@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Web Order Form", "Publish\Web Order Form\", "{E689D55B-38E1-420F-8B92-ED645854A6EE}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{4abafe1d-2251-44ce-8ee0-2af3ca0955e6}|BrentRabe.WebOrderEntry.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_62597"
 		Debug.AspNetCompiler.PhysicalPath = "Publish\Web Order Form\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62597\"
